@@ -3,34 +3,76 @@ body {
 }
 .header {
     background: #2C2D30;
-    width: 5%;
+    width: 4.5%;
     height: 913px;
-}
-
-.logo {
-    background: url('img/logo.svg') no-repeat center;
-    width: 50px;
-    height: 50px;
-    padding-top: 15px;
-    margin-bottom: 65px;
-
+    padding-left: 13px;
 }
 
 .header__nav {
-    height: 470px;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .header__btn {
     width: 50px;
     height: 50px;
-    columns: 7;
-    height: 50px;
-    width: 50px;
-    margin: auto;
     border-radius: 15px;
-    background: oldlace;
-    align-content: center;
+}
+
+.bigger:hover {
+    width: 60px;
+    height: 60px;
+}
+
+.logo {
+    background: url('img/logo.svg') no-repeat center;
+    margin-bottom: 65px;
+    margin-top: 10px;
+}
+
+.roboto{
+    background: url('img/roboto.svg') no-repeat #383A3D center;
+    border: #383A3D solid 1px;
+}
+
+.joystic {
+    border: orange solid 1px;
+    background: url('img/joystic.svg') no-repeat center;
+}
+
+.assotiations {
+    border: #D9CF25 solid 1px;
+    background: url('img/assotiations.svg') no-repeat center;
+}
+
+.motor {
+    border: #3BACD9 solid 1px;
+    background: url('img/motor.svg') no-repeat center;
+}
+
+.speech {
+    border: #CA50D9 solid 1px;
+    background: url('img/speech.svg') no-repeat center;
+}
+
+.vision {
+    background-color: #82D930;
+    background: url('img/vision.svg') no-repeat center #82D930;
+    border: #82D930 solid 1px;
+}
+
+.union {
+    border: #9379FF solid 1px;
+    margin-bottom: 168px; 
+    background: url('img/union.svg') no-repeat center;    
+}
+
+.camera{
+    background: url('img/camera.png') no-repeat center;
+}
+.terminal {
+    background: url('img/terminal.png') no-repeat center;
+    margin-bottom: 20px;
 }
