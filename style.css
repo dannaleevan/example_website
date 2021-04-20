@@ -1,11 +1,7 @@
-.body {
-    display: grid;
-    
-}
 body {
     margin: 0;
 }
-.header-container {
+.header {
     background: #2C2D30;
     width: 4.5%;
     height: 913px;
